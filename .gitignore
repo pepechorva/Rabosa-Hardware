@@ -1,0 +1,39 @@
+# ----------------------------------------
+# KICAD SUBMODULE .gitignore
+# Repositorio: Rabosa-Hardware (KiCAD)
+# ----------------------------------------
+
+# Archivos de la Sesión y Preferencias de Usuario
+*.kicad_prl
+*.kicad_pro.bak
+*.kicad_sch.bak
+*.kicad_pcb.bak
+*.kicad_sym.bak
+*.kicad_dru-bak
+
+# Archivos de Backup y Historial
+*-backups/
+backups/
+*-undo.json
+*.lock
+
+# Cache y Metadatos de Librerías
+fp-info-cache
+sym-lib-table
+fp-lib-table
+library-repos.json
+
+# Archivos temporales generados por la herramienta
+*.bak
+*.temp
+*.tmp
+
+# Archivos Generados por Exportación (Generalmente deben ser exportados manualmente)
+# Si no quieres rastrear las BOMs y netlists en el repositorio, deja estas reglas:
+*.csv
+*.dxf
+*.gbr
+*.drl
+*.gko
+*.pos
+*.zip
